@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="material.blue_grey-deep_orange" level="application" />
+    <orderEntry type="library" name="material.brown-orange" level="application" />
   </component>
 </module>
