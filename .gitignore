@@ -6,3 +6,4 @@ dist
 .cache
 /environment.js
 /firebase-tools-instant-win.exe
+public/planning.md
