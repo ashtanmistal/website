@@ -40,7 +40,17 @@
   <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#5e4144">
-
+  <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
 
 </head>
 
@@ -69,85 +79,121 @@
               <i class="material-icons">construction</i> Projects</a>
           </div>
 
-          <div class="mdl-tabs__panel is-active" id="about">
-            <div class="mdl-grid portfolio-max-width" style="width: 80%">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text"> \ </h2>
-              </div>
-
-
-              <div class="mdl-grid portfolio-copy">
-                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Introduction</h3>
-                <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
-                  <div class="desktop-only mdl-card mdl-shadow--2dp mdl-elevation--z16"
-                    style="width: 20%; height: auto; position: absolute; top: 120px; right: 0; margin: 20px; border-radius: 5%;">
-                    <img src="AshtanMistal.JPG" alt="Ashtan Mistal"
-                      style="box-sizing: content-box; width: 100%; height: auto;">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Ashtan Mistal</h2>
+          <div class="mdl-layout__content">
+            <div class="mdl-tabs__panel is-active" id="about">
+              <div class="mdl-grid portfolio-max-width" style="width: 80%; margin-top: 70px;">
+                <!-- About Me -->
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                  <header class="mdl-cell mdl-cell--12-col mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" style="background: url('AshtanMistal.jpg') center / cover no-repeat;">
+                  </header>
+                
+                  <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card__supporting-text">
+                      <div class="title-name">
+                        <h4>Ashtan Mistal</h4>
+                      </div>
+                      
+                      Hi there! I'm a recent graduate from the University of British Columbia, with a B.Sc. double major in Physics and Computer Science. I specialized in Computer Vision and Geometric Modeling on the CS side, and Medical Physics on the Physics side. I am currently working as an Applied Physics Software Developer at Mitra Biotechnologies, developing a project simulating capillary flow in diagnostic assays through computational fluid dynamics in a web application. 
+                      <br>
+                      <br>
+                      I'm currently looking for longer-term opportunities in software development, with a particular interest in computer vision, graphics, and machine learning. I'm also open to opportunities integrating my medical physics background. Feel free to reach out if you have any opportunities or just want to chat!
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                        href="https://www.linkedin.com/in/ashtanmistal/">
-                        LinkedIn
-                      </a>
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                        href="https://www.github.com/ashtanmistal/">
-                        GitHub <i class="material-icons">code</i>
-                      </a>
+                    <div class="mdl-card__actions">
+                      <a href="https://www.linkedin.com/in/ashtanmistal/" class="mdl-button">LinkedIn</a>
+                      <a href="https://www.github.com/ashtanmistal/" class="mdl-button">GitHub</a>
                     </div>
                   </div>
-                  <div style="width: 85%;">
-                    <p>
-                      Hi there! I'm Ashtan. I completed my double major in Physics and Computer Science at the
-                      University of British Columbia in December 2023, where I specialized in computer vision and
-                      geometric modeling.
-
-                      <br><br>
-                      I am currently employed as an Applied Physics Software Developer at Mitra Biotechnologies, working
-                      on a project simulating capillary flow in diagnostic assays through computational fluid dynamics
-                      in a web application.
-                      <br><br>
-                      I am passionate about the intersection of computer science and physics and how it can be applied
-                      in innovative ways.
-                      Feel free to connect with me on <a href="https://www.linkedin.com/in/ashtanmistal/">LinkedIn</a>
-                      or check out my projects on <a href="https://github.com/ashtanmistal">GitHub</a>.
-                      I am currently searching for longer term employment opportunities in the field of computer vision,
-                      computer graphics, deep learning, or software development.
-                      The best way to reach me is through LinkedIn, where you can find my current contact information.
-                    </p>
+                </section>
+                
+                <!-- Work Experience -->
+                <section class="section--center mdl-grid mdl-grid mdl-shadow--2dp">
+                  <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                      <h4 class="mdl-cell mdl-cell--12-col" style="margin-top: 20px;">Work Experience</h4>
+                      <div class="section__circle-container mdl-cell mdl-cell--1-col mdl-cell--1-col-phone">
+                        <!-- include https://mitrabiotechnologies.com/logo.png-->
+                        <div class="section__circle-container__circle" style="align-items: center; justify-content: center; max-height: 100px;">
+                          <img src="https://mitrabiotechnologies.com/logo.png" style="width: 80%; height: auto;">
+                          </div>
+                      </div>
+                      <div class="section__text mdl-cell mdl-cell--11-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                        <h5>Applied Physics Software Developer</h5>
+                        <div class="header-info">
+                          <h6>Mitra Biotechnologies</h6>
+                          <h6>December 2023 - Present</h6>
+                        </div>
+                        
+                        <ul>
+                          <li>Developed a web-app platform for simulating capillary flow in diagnostic assays, integrating fluid dynamics to enhance tool accuracy.</li>
+                          <li>Collaborated with interdisciplinary teams to craft scalable simulation algorithms, improving predictive capabilities and user accessibility.</li>
+                          <li>Optimized fluid flow models using real-world data, ensuring simulation reliability and compliance with biotech industry standards.</li>
+                          <li>Led user interface design and technical documentation, simplifying complex simulations for non-specialist end-users.</li>
+                        </ul>
+                      </div>
+                      
+                      <div class="section__circle-container mdl-cell mdl-cell--1-col mdl-cell--1-col-phone">
+                        <div class="section__circle-container__circle" style="align-items: center; justify-content: center; max-height: 100px;">
+                          <img src="https://brand3.sites.olt.ubc.ca/files/2018/09/2Crest_ex_768.png" style="width: 350%; height: auto; justify-content: center;">
+                        </div>
+                      </div>
+                      <div class="section__text mdl-cell mdl-cell--11-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                        <h5>Undergraduate Teaching Assistant</h5>
+                        <div class="header-info">
+                          <h6>UBC Department of Computer Science</h6>
+                          <h6>September 2021 - December 2023</h6>
+                        </div>
+                        
+                        <ul>
+                          <li>Facilitated student comprehension of computer science concepts and programming techniques through proactive engagement during weekly office hours and lab sessions.</li>
+                          <li>Engaged closely with fellow teaching assistants and professors to create a dynamic and supportive learning environment, ensuring students received comprehensive guidance in a fast-paced educational setting.</li>
+                          <li>Received consistently positive performance evaluations from students, highlighting the impact of my teaching methods in driving their academic success and fostering their enthusiasm for computer science.</li>
+                          <li>Employed effective problem-solving and debugging skills to assist students in resolving conceptual roadblocks, solidifying learning outcomes and increasing confidence in tackling technical issues.</li>
+                      </ul>
+                      
+                      </div>
+                      <div class="section__circle-container mdl-cell mdl-cell--1-col mdl-cell--1-col-phone">
+                        <div class="section__circle-container__circle" style="align-items: center; justify-content: center; max-height: 100px;">
+                          <img src="https://brand3.sites.olt.ubc.ca/files/2018/09/2Crest_ex_768.png" style="width: 350%; height: auto; justify-content: center;">
+                        </div>
+                      </div>
+                      <div class="section__text mdl-cell mdl-cell--11-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                        <h5>Residence Advisor</h5>
+                        <div class="header-info">
+                          <h6>UBC Student Housing and Community Services</h6>
+                          <h6>August 2021 - December 2023</h6>
+                      </div>
+                        <ul>
+                          <li>Skillfully managed conflicts by providing a safe and supportive space for residents to address issues, employing active listening and mediation techniques to facilitate constructive resolutions.</li>
+                          <li>Helped strengthen the residence experience through supporting safety and security, personal development, and wellness through a peer-to-peer approach.</li>
+                          <li>Coordinated with a team to develop and implement a variety of programs and events to foster a sense of community and belonging among residents.</li>
+                      </ul>
+                      
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <a href="#projects" class="mdl-button">View Projects</a>
+                    </div>
                   </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                  <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__supporting-text">
+                      <h4>
+                        Personal Interests
+                      </h4>
+                      Alongside my academic and professional endeavors, I engage in a variety of extracurricular activities that enrich my life and work. My passion for outdoor activities like hiking allow me to explore the stunning landscapes of British Columbia and beyond. I've also been rock climbing for as long as I can remember. 
+                      <br>
+                      <br>
+                      My creative side finds expression in music production, an endeavour I've explored for about 10 years now, and a little bit of digital art. I find both are excellent outlets to express myself while also learning new skills - and often finding inspiration for technical projects along the way.
+                      Though these hobbies have somewhat been put on the backburner during most of my studies, they nonetheless serve as an excellent way to unwind and recharge.
+                      </div>
+                    <!-- <div class="mdl-card__actions">
+                      <a href="https://linktr.ee/ashtan" class="mdl-button">Linktree</a>
+                    </div> -->
+                  </div>
+                </section>
                 </div>
-                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">About Me and My Studies</h3>
-
-                <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
-                  <p>
-                    My technical skills span a range of languages and frameworks including Python, C++, JavaScript /
-                    Typescript, and more. I have a particular interest in computer graphics, computer vision, and deep
-                    learning, which I have applied in various personal and academic projects.
-
-                    <br><br>
-                    Some of my recent projects include developing a deep learning pipeline for point cloud segmentation
-                    (LiDAR-DenseSeg), creating a virtualization of the UBC Campus in Minecraft, and developing a
-                    Markdown note-taking app (Jotmark). Learn more about these projects on my <a
-                      href="#projects">Projects</a> page.
-
-                    <br><br>
-                    In my personal time, I enjoy activities like Tae Kwon Do, music production, digital art, mountain
-                    biking, and hiking. And, of course, Minecraft.
-                  </p>
-                  <p><br></p>
-                  <p>
-                    I am always open to new learning opportunities and am excited about the possibilities that lie at
-                    the intersection of computer science and physics.
-                    If you have any questions or just want to chat about my work and interests, please feel free to
-                    reach out through my social media links.
-                  </p>
                 </div>
-              </div>
-
-
-            </div>
           </div>
           <div class="mdl-tabs__panel" id="projects">
             <div class="mdl-layout__content">
@@ -334,6 +380,7 @@
       </div>
     </main>
   </div>
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 
 </html>
