@@ -26,7 +26,7 @@
 #     Instead of using this file, consider using a specific rule such as
 #     allowing access based on (sub)domain:
 #
-#         Header set Access-Control-Allow-Origin "subdomain.example.com"
+#         Header set Access-Control-Allow-Origin "subdomain.ashtanmistal.com"
 
 # <IfModule mod_headers.c>
 #     Header set Access-Control-Allow-Origin "*"
@@ -347,7 +347,7 @@ AddDefaultCharset utf-8
 # | Suppressing the `www.` at the beginning of URLs                    |
 # ----------------------------------------------------------------------
 
-# Rewrite www.example.com → example.com
+# Rewrite www.ashtanmistal.com → ashtanmistal.com
 
 # The same content should never be available under two different URLs,
 # especially not with and without `www.` at the beginning.
@@ -388,7 +388,7 @@ AddDefaultCharset utf-8
 # | Forcing the `www.` at the beginning of URLs                        |
 # ----------------------------------------------------------------------
 
-# Rewrite example.com → www.example.com
+# Rewrite ashtanmistal.com → www.ashtanmistal.com
 
 # The same content should never be available under two different URLs,
 # especially not with and without `www.` at the beginning.
@@ -618,7 +618,7 @@ AddDefaultCharset utf-8
 
 # Force client-side TLS (Transport Layer Security) redirection.
 #
-# If a user types `example.com` in their browser, even if the server redirects
+# If a user types `ashtanmistal.com` in their browser, even if the server redirects
 # them to the secure version of the website, that still leaves a window of
 # opportunity (the initial HTTP connection) for an attacker to downgrade or
 # redirect the request.
@@ -1022,7 +1022,7 @@ ServerSignature Off
 #     (e.g. users on a 2G connection).
 #
 #     You can test the effects of content transformation applied by
-#     Google's Lite Mode by visiting: https://googleweblight.com/i?u=https://www.example.com
+#     Google's Lite Mode by visiting: https://googleweblight.com/i?u=https://www.ashtanmistal.com
 #
 #     https://support.google.com/webmasters/answer/6211428
 #

@@ -62,7 +62,7 @@ or a CDN that hosts content that may not be present on every page of your site,
 for example) then you can queue up a domain name to be prefetched.
 
 ```html
-<link rel="dns-prefetch" href="//example.com">
+<link rel="dns-prefetch" href="//ashtanmistal.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com">
 ```
 
@@ -219,10 +219,10 @@ mouse over your Pinned Site's icon.
 If the site should go to a specific URL when it is pinned (such as the
 homepage), enter it here. One idea is to send it to a special URL so you can
 track the number of pinned users, like so:
-`https://www.example.com/index.html?pinned=true`
+`https://www.ashtanmistal.com/index.html?pinned=true`
 
 ```html
-<meta name="msapplication-starturl" content="https://www.example.com/index.html?pinned=true">
+<meta name="msapplication-starturl" content="https://www.ashtanmistal.com/index.html?pinned=true">
 ```
 
 ### Recolor IE's controls manually for a Pinned Site
@@ -281,7 +281,7 @@ schema](https://docs.microsoft.com/en-us/archive/blogs/ie/pinned-sites-in-window
   values](https://docs.microsoft.com/en-us/uwp/schemas/tiles/badgeschema/element-badge)
 
 ```html
-<meta name="msapplication-badge" value="frequency=NUMBER_IN_MINUTES;polling-uri=https://www.example.com/path/to/file.xml">
+<meta name="msapplication-badge" value="frequency=NUMBER_IN_MINUTES;polling-uri=https://www.ashtanmistal.com/path/to/file.xml">
 ```
 
 ## Search
@@ -297,7 +297,7 @@ Submit it to search engine tool:
 * [Baidu](https://zhanzhang.baidu.com/) OR Insert the following line anywhere in
   your robots.txt file, specifying the path to your sitemap:
 ```
-Sitemap: https://example.com/sitemap_location.xml
+Sitemap: https://ashtanmistal.com/sitemap_location.xml
 ```
 
 ### Hide pages from search engines
@@ -409,10 +409,10 @@ Facebook).
 
 ```html
 <meta property="fb:app_id" content="123456789">
-<meta property="og:url" content="https://www.example.com/path/to/page.html">
+<meta property="og:url" content="https://www.ashtanmistal.com/path/to/page.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="">
-<meta property="og:image" content="https://www.example.com/path/to/image.jpg">
+<meta property="og:image" content="https://www.ashtanmistal.com/path/to/image.jpg">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="">
 <meta property="article:author" content="">
@@ -433,10 +433,10 @@ Twitter).
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@site_account">
 <meta name="twitter:creator" content="@individual_account">
-<meta name="twitter:url" content="https://www.example.com/path/to/page.html">
+<meta name="twitter:url" content="https://www.ashtanmistal.com/path/to/page.html">
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://www.example.com/path/to/image.jpg">
+<meta name="twitter:image" content="https://www.ashtanmistal.com/path/to/image.jpg">
 ```
 
 ### Schema.org
@@ -470,8 +470,8 @@ note that this markup requires to add attributes to your top `html` tag.
 
 Signal to search engines and others "Use this URL for this page!" Useful when
 parameters after a `#` or `?` is used to control the display state of a page.
-`https://www.example.com/cart.html?shopping-cart-open=true` can be indexed as
-the cleaner, more accurate `https://www.example.com/cart.html`.
+`https://www.ashtanmistal.com/cart.html?shopping-cart-open=true` can be indexed as
+the cleaner, more accurate `https://www.ashtanmistal.com/cart.html`.
 
 ```html
 <link rel="canonical" href="">
@@ -489,12 +489,12 @@ This can be done by adding the following annotations in your HTML pages:
   corresponding mobile URL, e.g.:
 
   `<link rel="alternate" media="only screen and (max-width: 640px)"
-  href="https://m.example.com/page.html" >`
+  href="https://m.ashtanmistal.com/page.html" >`
 
 * on the mobile page, add the `link rel="canonical"` tag pointing to the
   corresponding desktop URL, e.g.:
 
-  `<link rel="canonical" href="https://www.example.com/page.html">`
+  `<link rel="canonical" href="https://www.ashtanmistal.com/page.html">`
 
 For more information please see:
 
